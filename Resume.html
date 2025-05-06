@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="icon" type="image/png" href="pf.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Balsamiq+Sans&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        } 
+       body{
+            background-color:rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins",sans-serif;
+        }
+        h1{
+            text-align: center;
+            color: rgb(160, 101, 214);
+        }
+        nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(9, 9, 66);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color:cyan;
+        border-bottom: 2px solid cyan;
+      }
+      .left {
+        font-size: 1.5rem;
+        color: white;
+      }
+      h2 {
+        text-align: center;
+        color: white;
+      }
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 5px 0;
+}
+
+h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    color: #444;
+    font-size: 14px;
+}
+
+/* Timeline Items */
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+/* Circle at the top */
+.circle {
+    position: absolute;
+    left: 19px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    background-color: #29a3a3;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Vertical Line extending downward */
+.timeline-item::after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    width: 2px;
+    height: 100%;
+    background-color: #29a3a3;
+}
+.date{
+  color: #333;
+}
+.footer{
+background-color: rgb(9, 9, 66);
+color:white;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+}
+.footer p{
+  color: white;
+}
+
+.footer a {
+        color:white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 1.2rem;
+      }
+      .footer a:hover {
+        color:rgb(118, 180, 180);
+      }
+      .footer .social-icons {
+        margin-top: 10px;
+      }
+    
+@media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                height: auto;
+                padding: 10px;
+            }
+            nav ul {
+                flex-direction: column;
+                padding: 0;
+            }
+            nav ul li {
+                margin: 5px 0;
+                text-align: center;
+            }
+            .container {
+                flex-direction: column;
+            }
+            .left-column, .right-column {
+                width: 100%;
+            }
+        }
+        @media (max-width: 480px) {
+            h1, h2 {
+                font-size: 1.5rem;
+            }
+            .container {
+                padding: 10px;
+            }
+            .timeline-item {
+                padding-left: 30px;
+            }
+            .circle {
+                left: 14px;
+                width: 10px;
+                height: 10px;
+            }
+            .timeline-item::after {
+                left: 19px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">KAVYANSH Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="home1.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Resume.html">Resume</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <br><br>
+    <h1>Resume</h1>
+    <br>
+    <h2>Frontend Developer | Turning Ideas into Interactive Web Solutions</h2><br><br><br>
+    
+    <div class="container">
+      <!-- Left Column -->
+      <div class="left-column">
+          <section class="summary">
+              <h3>SUMMARY</h3>
+              <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                      <h4>KAVYANSH ARORA</h4>
+                      <p><i>Looking for a challenging role in a reputable organization to utilize my technical, 
+                        database, and management skills for the growth of the organization as well as to 
+                        enhance my knowledge about new and emerging trend</i></p>
+                      <ul>
+                          <li> Completed BCA from Institute of Technology and Science (ITS).</li><br>
+                          <li>Contact : +918851905139</li><br>
+                          <li>E-mail : arorakavya363@gmail.com</li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+
+          <section class="education">
+              <h3>Education</h3>
+              <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                      <h4>BCA(Bachelors of Computer Applications)</h4>
+                      <span class="date">2021 - 2024</span><br>
+                      <p><i>CHAUDHARY CHARANSINGH UNIVERSITY , MEERUT</i></p>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h4>INTERMEDIATE</h4>
+                        <span class="date">Commerce , CBSE Board</span><br>
+                        <span class="date">2021</span>
+                        <p><i>INGRAHAM ENGLISH MEDIUM SCHOOL , GHAZIABAD</i></p>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="circle"></div>
+                      <div class="content">
+                          <h4>HIGH SCHOOL</h4>
+                          <span class="date"> CBSE Board </span><br>
+                          <span class="date">2019</span>
+                          <p><i>KDB PUBLIC SCHOOL , GHAZIABAD</i></p>
+                      </div>
+                  
+                 
+                 
+              </div>
+          </section>
+      </div>
+
+      <!-- Right Column -->
+      <div class="right-column">
+          <section class="experience">
+              <h3>SKILLS</h3>
+              <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                      <h4>TECHNICAL SKILLS</h4>
+                      <ul>
+                          <li>Versed with MS Office Suite (Word, Excel & PowerPoint), Internet Applications and Windows Basic.</li>
+                          <li>HTML </li>
+                          <li>CSS </li>
+                          <li>Bootstrap</li>
+                          <li>Javascript</li>
+                          <li>Basic of SQL</li>
+                      </ul>
+                  </div>
+              </div>
+
+              <h3>SELF - APPRAISAL </h3>
+              <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                      <h4>APPRAISAL</h4>
+                    <ul>
+                      <li>Good management skill</li>
+                      <li>Self motivated</li>
+                      <li>Adaptive to new environment</li>
+                      <li>Ability to handle situational stress</li>
+                      <li>Positive thinker</li>
+                    </ul>
+                  </div>
+              </div>
+
+              <h3>LANGUAGES</h3>
+              <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                      <h4>LANGUAGES KNOWN</h4>
+                      <ul>
+                          <li>English</li>
+                          <li>Hindi </li>
+                      </ul>
+                  </div>
+              </div>
+
+              <h3>HOBBIES</h3>
+              <div class="timeline-item">
+                  <div class="circle"></div>
+                  <div class="content">
+                      
+                      <ul>
+                          <li>Travelling</li>
+                          <li>Exploring new places</li>
+                          <li>Sketching</li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+      </div>
+  </div><br><br>
+
+  <footer>
+    <div  class="footer">
+        <p>&copy; Copyright Kavyansh Arora | All Rights Reserved.</p>
+        <p>Gmail: <a href="mailto:arorakavya363@gmail.com" style="color:  rgb(118, 180, 180);  text-decoration: none;">arorakavya363@gmail.com</a></p>
+        <p>Designed by Kavyansh</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/kavyansh-arora-18596628b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/kavyansharora/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+    </div>
+</footer>
+
+</body>
+</html>

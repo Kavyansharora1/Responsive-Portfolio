@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:greenyellow;
+            border:  20px solid white;
+            border-radius: 5px
+        }
+        .abc{
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 20px;
+            border: 2px solid white;
+            border-radius: 4px;
+            margin-bottom: 4px;
+            background-color:rgba(190, 245, 124, 0.915);
+
+            }
+        input[ type="text"],
+        input[ type="email"],
+        input[ type="phone"],
+        textarea,
+        input[ type="postcode"],
+        input[ type="country"],
+        input[ type="cardnumber"],
+        input[ type="securitycode"],
+        input[ type="nameoncard"]
+      
+
+        { 
+            margin-left: 10%;
+            border: 2px solid wheat;
+            border-radius: 4px;
+            padding: 7px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            }
+        
+        .abc1{
+            margin-left: 20%;
+            margin-right: 20%;
+           font-size: 20px;
+            border: 2px solid white;
+            border-radius: 4px;
+            margin-bottom: 4px;
+            background-color:rgba(190, 245, 124, 0.915);
+
+        }  
+        input[ type="radio"]
+         { 
+            border: 2px solid wheat;
+            border-radius: 4px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            }
+        input[ type="submit"]
+             {  
+            margin-left: 45%;
+            font-size: 30px;
+            border-radius: 20px;
+            background-color: darkgreen;
+            color: white;
+           
+             } 
+            
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <h2 style="margin-left: 20%;">Step1 : Your Details</h2>
+        <div class="abc">
+            
+            <label>Name</label>
+            <input type="text"placeholder="First And Last Name" >
+
+        </div>
+        <div class="abc">
+        <label for="">Email</label>
+        <input type="email" placeholder="example@domain.name">
+      </div>
+
+    <div class="abc">
+    <label for="">Phone</label>
+    <input type="phone">
+    </div>
+    <h2 style="margin-left: 20%;">Step2 : Delivery Address</h2>
+    <div class="abc">
+        <label for="">Address</label>
+        <textarea rows="8" cols="90"></textarea>
+  </div>
+  <div class="abc">
+    <label for="">Postcode</label>
+    <input type="postcode">
+    </div>
+    <div class="abc">
+        <label for="">Country</label>
+        <input type="country">
+        </div>
+        <h2 style="margin-left: 20%;">Step3 : Card Details</h2>
+
+        <div class="abc1">
+            <label for="">Card type</label><br>
+            <input type="radio" name="hi" id="" ><img src="images/file:///C:/Users/lenovo/.vscode/extensions/abusaidm.html-snippets-0.2.1/images/celebration.avif">VISA
+            <input type="radio" name="hi" id=""><img src="images/celebration.avif">AmEX
+            <input type="radio" name="hi" id=""><img src="images/image 21.jpg">Mastercard
+
+        </div>
+    </div>
+
+    <div class="abc">
+    <label for="">Cardnumber</label>
+    <input type="cardnumber"placeholder="90XX XXXX XX01">
+    </div>
+    <div class="abc">
+        <label for="">Securitycode</label>
+        <input type="securitycode">
+        </div>
+    </div>
+    <div class="abc">
+    <label for="">Name on card</label>
+    <input type="nameoncard" placeholder="Exact name as on the card">
+    </div><br> 
+    <input type="submit" value="Buy IT!"><br>
+
+ </form>
+    
+</body>
+</html>
